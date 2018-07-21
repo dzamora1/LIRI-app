@@ -9,7 +9,7 @@ Types of commands are listed below...
 
 my-tweets returns your Twitter account's 20 most recent tweets using the Twitter API.
 spotify-this-song [song-title-here] returns the artist, album, and preview URL for a specific song using the Spotify API.
-movie-this [movie-title-here] returns the year, rating, plot summary, reviews of a specific movie using the IMDb API.
+movie-this [movie-title-here] returns the year, rating, plot summary, reviews of a specific movie using the OMDB  API.
 do-what-it-says returns the result of a "random" result by reading the random.txt file and performing the command written in that file. This command can be changed to any one of the 3 types listed above.
 
 Instructions
@@ -31,8 +31,8 @@ Running the command node liri.js my-tweets will return my 20 most recent tweets.
 Spotify API
 Running the command node liri.js spotify-this-song "Bohemian Rhapsody" will return the track info from Spotify. Spotify Command
 
-OMBD API
-Running the command node liri.js movie-this Pulp Fiction will return the movie info from IMDb. IMDb Command
+OMDB API
+Running the command node liri.js movie-this Pulp Fiction will return the movie info from OMDB . OMDB  Command
 
 Node fs file reader
 Running the command node liri.js do-what-it-says will read a command out of the random.txt file and perform it. Random Command
