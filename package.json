@@ -11,10 +11,16 @@
     "url": "git+https://github.com/dzamora1/LIRI-app.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Danny Zamora",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dzamora1/LIRI-app/issues"
   },
-  "homepage": "https://github.com/dzamora1/LIRI-app#readme"
+  "homepage": "https://github.com/dzamora1/LIRI-app#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.87.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  }
 }
